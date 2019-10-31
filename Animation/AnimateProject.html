@@ -15,7 +15,7 @@
 <title>AnimateProject</title>
 <!-- write your code here -->
 <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
-<script src="AnimateProject.js?1572403464958"></script>
+<script src="AnimateProject.js?1572556189789"></script>
 <script>
 var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
 function init() {
@@ -172,7 +172,7 @@ function handleComplete(evt,comp) {
 			stage.tickOnUpdate = true;		
 		}
 	}
-	makeResponsive(false,'both',false,1);	
+	makeResponsive(true,'both',false,1);	
 	AdobeAn.compositionLoaded(lib.properties.id);
 	fnStartAnimation();
 }
@@ -182,7 +182,6 @@ function playSound(id, loop) {
 </script>
 <!-- write your code here -->
 </head>
-
 <body onload="init();" style="margin:0px;">
 
 		<div class="container-fluid">
