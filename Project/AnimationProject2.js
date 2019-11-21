@@ -2294,9 +2294,12 @@ p.nominalBounds = new cjs.Rectangle(-46.3,-75,92.7,150);
 	this.frame_3149 = function() {
 		playSound("Redwav");
 	}
+	this.frame_3409 = function() {
+		playSound("BlueTime");
+	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).wait(3149).call(this.frame_3149).wait(262));
+	this.timeline.addTween(cjs.Tween.get(this).wait(3149).call(this.frame_3149).wait(260).call(this.frame_3409).wait(2));
 
 	// Shield
 	this.instance = new lib.RedShield_1();
@@ -2580,17 +2583,6 @@ p.nominalBounds = new cjs.Rectangle(-46.3,-75,92.7,150);
 
 (lib.Scene_1_Ex2 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
-
-	// timeline functions:
-	this.frame_0 = function() {
-		playSound("Bluewav");
-	}
-	this.frame_3409 = function() {
-		playSound("Bluewav");
-	}
-
-	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(3409).call(this.frame_3409).wait(3));
 
 	// Ex2
 	this.btnEx2 = new lib.ButtonLeft();
@@ -4664,12 +4656,12 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/AnimationProject2_atlas_.png?1574371541089", id:"AnimationProject2_atlas_"},
-		{src:"sounds/Bluewav.mp3?1574371542173", id:"Bluewav"},
-		{src:"sounds/Coinwav.mp3?1574371542173", id:"Coinwav"},
-		{src:"sounds/Questionwav.mp3?1574371542173", id:"Questionwav"},
-		{src:"sounds/Redwav.mp3?1574371542173", id:"Redwav"},
-		{src:"sounds/Selectwav.mp3?1574371542173", id:"Selectwav"}
+		{src:"images/AnimationProject2_atlas_.png?1574372297031", id:"AnimationProject2_atlas_"},
+		{src:"sounds/BlueTime.mp3?1574372298293", id:"BlueTime"},
+		{src:"sounds/Coinwav.mp3?1574372298293", id:"Coinwav"},
+		{src:"sounds/Questionwav.mp3?1574372298293", id:"Questionwav"},
+		{src:"sounds/Redwav.mp3?1574372298293", id:"Redwav"},
+		{src:"sounds/Selectwav.mp3?1574372298293", id:"Selectwav"}
 	],
 	preloads: []
 };
