@@ -84,25 +84,52 @@
 						<p>Photoshop for drawing all of the sprites I used in my game.</p>
 						<p>I used layers to draw parts so they would not overlap or have to be drawn in a particular order.</p>
 						<p>Drawing on different layers allowed me to edit parts of a drawing without affecting the other parts of the drawing.</p>
+						<img src="ProjectImages/photoLayers.png" alt="" style="width: 800px; height: 600px;">
+
+						<p>I also used this when pacing trees on the background as I wanted them to appear above the background.</p>
+						<img src="ProjectImages/layertree.png" alt="" style="width: 900px; height: 500px;">
 
 						<p>Illustrator - For drawing the shape of the Arrow</p>
-						<p>I used path tools </p>
+						<p>I used anchor tools to draw esit the path of the shape I had drawn to give it an arrow shape.</p>
+						<img src="ProjectImages/path.png" alt="" style="width: 700px; height: 400px;">
 
 
 						<p>Animate - </p>
 						<p>I created a Movie Clip for each direction the character faces and inside the Movie Clip I changed the sprite to make it look like he is walking.</p>
 						<p>I used the Motion Tween to move the character around the screen</p>
+						<p>Because I used motion tweens for every time the character moved I ended up using a lot of frames.</p>
+						<p>Onion Skin - When I was creating the animation for the character walking</p>
+						<p>I wanted to get the character alligned so he would not jump around the screen when walking.</p>
+						<img src="ProjectImages/onion.png" alt="" style="width: 500px; height: 300px;">
+						<p>On the main animation when the user clicks a button the charcter sometimes jumps to a close location.</p>
+						<p>This is because I was not able to use the onion skin to check the character positioning since some of the frames were separted by hundreds of frames.</p>
+						<p>So I placed the character closest to where I thought the origin was.</p>
 						<p>I used the Animate Code snippets to get the buttons to work when they were clicked on.</p>
-						<img src="ProjectImages/snippet.png" alt="">
-						<p>I wrote some code in the editor so that the collectables would not appear multiple times</p>
-						<p>I did this by setting some variables and checking if they had been collected or not</p>
-						<p>The animation would then go to the correct frame</p>
-						<img src="ProjectImages/code.png" alt="">
+						<img src="ProjectImages/snippet1.png" alt="" style="width: 600px;">
+						<p>I chose the 'click to go to frame and play option' because I wanted the animation to continue from a certain frame after a button had been clicked.</p>
+						<p>I also added in the 'this.stop' at the top so the animation would stop on this frame and wait for the user to click a button.</p>
+						<img src="ProjectImages/snippet2.png" alt="" style="width: 700px;">
+						<p>I added a variable for the collectables to know wether they had been collected or not</p>
+						<p>I did this with an if statement which I coded myself</p>
+						<p>It checks whether the collectable is equal to 0 or 1 and goes to and plays the frame accordingly.</p>
+						<img src="ProjectImages/vars.png" alt="" style="width: 200px; height: 100px;"><br>
+						<img src="ProjectImages/codeif.png" alt="" style="width: 700px;">
+
+						<p>I added sounds into the animation  in two ways</p>
+						<p>One was just dragging the sound file on to the frame so the sound plays when the frame plays.</p>
+						<p>The orange line on the frame represents the sound waves played on the frame.</p>
+						<img src="ProjectImages/sound.png" alt="" style="width:800px; height:500px;">
+						<p>Another way was on the button,</p>
+						<p>on the down frame of the button I adding the sound file so it would play when the button is pressed.</p>
+						<img src="ProjectImages/soundbutton.png" alt="" style="width:700px;">
 						<br>
 
 						<a>Why you believe your use of tools / applications was competent</a>		
-						<p>-</p>
-						<br>
+						<p>-I was able to create an interactable game by using the features of these programs.</p>
+						<p>Photoshop helped me to design images to use in the game and layer them to fit into the game and not overlap.</p>
+						<p>Adobe Animate helped me to be able to move a character around the screen and make this be influenced by user input when they click the arrows.</p>
+						<p></p>
+						<br><br>
 
 						<a>How you exported your work and why you did it that way</a>
 						<p>-Photoshop</p>
@@ -112,38 +139,58 @@
 
 						<p>For the Animate Project I exported it as a Canvas using these settings</p>
 						<p>I followed a guide on deploying Animate Projects here</p>
-						<a>...</a>
-						<br>
+						<a href="https://helpx.adobe.com/animate/using/creating-publishing-html5-canvas-document.html">https://helpx.adobe.com/animate/using/creating-publishing-html5-canvas-document.html</a>
+						<p>I wanted the frame to be responsive to the browser and centered so I went with these settings when exporting:</p>
+						<img src="ProjectImages/export.png" alt="" style="width: 500px; height:700px;">
+						<br><br>
 
 						<a>How you managed assets during project work</a>		
 						<p>-I used folders to organise all of my assets and made </p>
 						<p>I created backups for all of my drawings by keeping the original photoshop file so I could go back and edit it if I needed to change it.</p>
-						<p></p>
-						<br>
+						<p>Here are the image folders:</p>
+						<img src="ProjectImages/folders.png" alt="" style="width: 300px;">
+						<p>Here are the image files inside the folder:</p>
+						<img src="ProjectImages/files.png" alt="" style="width: 900px; height: 500px;">
+						<p>In Animate I used the Library to store files used in the Project</p>
+						<p>I created folders for files that were similar such as the buttons and character direction Movie Clips.</p>
+						<p>This made it very easy to find what I was looking for and made the process faster.</p>
+						<img src="ProjectImages/animatelibrary.png" alt="" style="height: 800px; width: 500px;">
+						<br><br>
 
 
 						<a>Design Decisions:</a>
 						<br>
 						
 						<a>How you used the elements and principles in your designs.</a>		
-						<p>-</p>
-						<br>
+						<p>-My main focus was to have a game where you guide a charcter out of a maze.</p>
+						<p>I did this by adding arrows that allow the player to move around the maze and find the exit.</p>
+						<p>Due to time restraints I only made the maze a size of 3 by 3 with two extra areas.</p>
+						<p>I wanted to add some collectables in to the maze so the player has an extra goal other than reaching the exit.</p>
+						<p>An idea I had was to make the maze bigger but did not have the time or resources to complete this.</p>
+						<p>I also wanted a random maze so the next area would not be the same but was unable to add this due to time constaints.</p>
+						<p>For music I decided that having background music would take away from the atmosphere of the lost in a maze feel.</p>
+						<p>I added in sounds to give the user some audio feedback when they do an action or collect an item.</p>
+						<br><br>
 
-						<a>How your designs are consistent with conventions and existing material</a>		
-						<p>-I based my character on these two .</p>
-						<p>The character I used in the previous animation</p>
-						<p>The main character from TLoZ Link</p>
-						<p>I </p>
-						<br>
+						<a>How your designs are consistent with conventions and existing material</a>
+						<p>I based my game on a click adventure game</p>
+						<p>I looked at some games of this style and how they play and decided to make a similar game.</p>
+						<p>I also looked at some top down perspective games and added in that aspect to the game.</p>
+						<p>I did this because the user would be able to see the character move around the screen based on their input.</p>
+						<p>I added some collectables for the user to find as an optional task for the user.</p>
+						<p>This would give the user a feeling of success when they collect these items.</p>
+						<br><br>
 
-						<a>What decisions you made about aesthetics and experience</a>
+						<a>What decisions you made about aesthetics and experience</a>						
 						<p>-I originally wanted the charcter to move around based on arrowkeys instead of arrows but</p>
 						<p>I was not able to set up the collisons with the objects around.</p>
 						<p>Because this did not work I went for a button (arrow) that the user can click to go in a direction.</p>
+						<p>My idea then changed to a click adventure style game.</p>
 						<p>I created multiple characters on the title screen for giving the effect that he was lost and walking around.</p>
 						<p>I was tempted to use the same character from the last animation but his sprite size was too small and did not fit in with the surroundings.</p>
 						<p>This is why I decided to draw my own character based on hime.</p>
-						<br>
+						<p>At the start the character enters the screen from below, this is a hint to the player indictaing that the exit is in this direction.</p>
+						<br><br>
 
 
 					</p>
